@@ -1,0 +1,306 @@
+<resources>
+    <string name="app_name">North Bulb</string>
+    <string name="action_settings">System Settings</string>
+    <string name="error_info">Message from Mars</string>
+    <string name="default_text">Little Prince</string>
+    <string name="default_tobecontinued">North Bulb to be continued… Thank you~</string>
+    <string name="splash_words">Really know you, Enjoy the new life.</string>
+
+    <!--TimerFragment.java中用到的文字-->
+    <string name="timeearly_thannow_warning">Please select a correct time after this moment!</string>
+
+    <!--gradient_ramp.xml-->
+    <string name="tv_save">Save</string>
+
+    <!--SceneModeActivity.java中用到的文字-->
+    <string name="save_succ">save successful</string>
+
+    <!--CenterFragment.java中用到的文字-->
+    <string name="choose_call_reminder">Select a call reminder mode</string>
+    <string name="choose_call_reminder_red">Red</string>
+    <string name="choose_call_reminder_green">Green</string>
+    <string name="choose_call_reminder_blue">Blue</string>
+    <string name="choose_call_reminder_diy">Diy mode</string>
+
+    <!--MainFragment.java中用到的文字-->
+    <string name="unfinised_open_light_timer">open light timer is still running</string>
+    <string name="finised_open_light_timer">open light timer has been finished</string>
+    <string name="unfinised_close_light_timer">close light timer is still running</string>
+    <string name="finised_close_light_timer">close light timer has been finished</string>
+
+    <!--DatetimeBean.java中用到的文字-->
+    <string name="year">year</string>
+    <string name="month">month</string>
+    <string name="day">day</string>
+    <string name="hour">hour</string>
+    <string name="minute">minute</string>
+
+    <!--SceneFragment.java中用到的文字-->
+    <string name="colorpallet">Color Palette</string>
+    <string name="colorpallet_description">Customize the color using a palette</string>
+    <string name="warmnight">Warm Night</string>
+    <string name="warmnight_description">A warm light to make you sleep well</string>
+    <string name="sunmode">Sun Mode</string>
+    <string name="sunmode_description">Show sunrise and sunset color</string>
+    <string name="defaultmode">Default Mode</string>
+    <string name="defaultmode_description">Show a series of color gradients</string>
+    <string name="rgbwave">RGB Wave</string>
+    <string name="rgbwave_description">Cycle through red, green and blue like breathing</string>
+    <string name="diyshine">Diy Shine</string>
+    <string name="diyshine_description">Design your own series of gradients</string>
+
+    <!--fragment_main.xml中用到的文字-->
+    <string name="open_light_timer">Turn On At</string>
+    <string name="close_light_timer">Turn Off After</string>
+    <string name="cancel_open_light_timer">Cancel turn on at </string>
+    <string name="light_timer_unit">Minutes</string>
+
+    <!--activity_pallet.xml中用到的文字-->
+    <string name="red">red</string>
+    <string name="orange">orange</string>
+    <string name="yellow">yellow</string>
+    <string name="green">green</string>
+    <string name="cyan">cyan</string>
+    <string name="blue">blue</string>
+    <string name="purple">purple</string>
+    <string name="white">white</string>
+
+    <!--dialog_password_settings.xml中用到的文字-->
+    <string name="input_new_pwd">Please input new password!</string>
+
+    <!--dialog_account_settings.xml中用到的文字-->
+    <string name="input_new_lightname">Please input light new name!</string>
+
+    <!--其它-->
+    <!--GroupActivity.java 和 fragment_group.xml中用到的文字-->
+    <string name="group_device_detele">Delete</string>
+    <string name="group_empty_info">Pull to Scanning</string>
+    <string name="group_empty_on">Back to Stop</string>
+
+    <!--ConnectActivity.java 和 activity_connect.xml中用到的文字-->
+    <string name="connect_device_title">My Device</string>
+    <string name="connect_group_title">My Group</string>
+    <string name="connect_personal_title">Personal Center</string>
+    <string name="connect_select_tip">Please select the device</string>
+    <string name="connect_dialog_title">Connect</string>
+    <string name="connect_dialog_message">Connecting……</string>
+    <string name="connect_toast_failed">Connect Failed</string>
+
+    <!--GradientRampActivity.java 和 gradient_amp.xml中用到的文字-->
+    <string name="gradient_title">Gradient Ramp</string>
+    <string name="stop_gap">Change Delay </string>
+    <string name="gradient_gap">Color Gap </string>
+    <string name="red_value">Red Value </string>
+    <string name="green_value">Green Value </string>
+    <string name="blue_value">Blue Value </string>
+    <string name="color_selected">√ </string>
+    <string name="color_notselected">X </string>
+    <string name="change_gradient_delay">Change Gradient Delay(unit: second)</string>
+    <string name="confirm_delay">Confirm </string>
+    <string name="cancel_delay">Cancel </string>
+    <string name="settings_delay_tip">Please input correct delay value! </string>
+    <string name="wait_gradient_run">Please wait the gradient mission run! </string>
+    <string name="gradient_model_saved">Gradient model to be continued… </string>
+
+    <!--dialog_gradient_delay_settings.xml中用到的文字-->
+    <string name="hint_input_new">Please input delay value.(unit: second)</string>
+    <string name="hint_value_saved">Current saved delay value: </string>
+
+    <!--DriveModeActivity.java 和 drive_mode.xml中用到的文字-->
+    <string name="drive_title">Contextual Mode</string>
+    <string name="btn_on">ON</string>
+    <string name="btn_off">OFF</string>
+    <string name="frequency_strong">0 Fast</string>
+    <string name="frequency_weak">Slow 512</string>
+    <string name="frequency_gap">Frequency Gap </string>
+    <string name="red_warning">Red Warning</string>
+    <string name="green_clear">Green Light</string>
+    <string name="blue_caution">Blue Caution</string>
+    <string name="red_green">Red and Green</string>
+    <string name="red_blue">Red and Blue</string>
+    <string name="blue_green">Blue and Green</string>
+    <string name="red_blue_green">Red, Blue and Green</string>
+
+    <!--drivemode_list_item.xml-->
+    <string name="label">MARK</string>
+    <string name="label_unlabeled">UNMARK</string>
+
+    <!--DriveModeService.java-->
+    <string name="notification_content_drivemode">Drive Mode</string>
+
+    <!--GradientRampService.java-->
+    <string name="notification_content_GradientRamp">Gradient Ramp</string>
+    <string name="notification_content_GradientRamp_Sun">Sun Mode</string>
+    <string name="notification_content_GradientRamp_Rgb">RGB Wave</string>
+
+    <!--PersonalFragment.java 和 fragment_personal.xml中用到的文字-->
+    <string name="personal_feedback">Feedback</string>
+    <string name="personal_about_app">About App</string>
+    <string name="personal_about_us">About Us</string>
+    <string name="personal_phone_func">Call Reminder</string>
+
+    <string name="connect_null_title">What is the name of your device?</string>
+    <string name="connect_null_info">Please click + select your device.</string>
+    <string name="connect_listen_title">Your device is called:</string>
+    <string name="connect_listen_info">Click the icon to connect or click + select new device.</string>
+    <string name="connect_scanning_title">Scanning the device: </string>
+    <string name="connect_scanning_info">Please wait. You can click the icon to stop.</string>
+    <string name="connect_scanned_title">I can not find:</string>
+    <string name="connect_scanned_info">You can click the icon to try again, or click + to select the device again.</string>
+    <string name="connect_connecting_title">Connecting the device:</string>
+    <string name="connect_connecting_info">Captain: Connecting. You can click the icon to stop.</string>
+    <string name="connect_fail_title">Sorry, cannot connected:</string>
+    <string name="connect_fail_info">Please click + to rescan. Check whether the device has been opened.</string>
+    <string name="connect_connected_title">Connect success</string>
+    <string name="connect_connected_info">Captain: connected successfully, you can enjoy the play.</string>
+    <!--Dialog中用到的文字-->
+    <string name="dialog_title_connect">Disconnected from Magic Lamp</string>
+    <string name="dialog_info_connect">You can reconnect or exit the program, please select.</string>
+    <string name="dialog_exit_connect">Exit</string>
+    <string name="dialog_retry_connect">Retry</string>
+    <!--MainActivity.java中用到的文字-->
+    <string name="dialog_title">Exit Warning</string>
+    <string name="dialog_message">Are you sure to quit? A service is running in the background.</string>
+    <string name="dialog_positive">Background Running</string>
+    <string name="dialog_negative">Confirm to Quit</string>
+    <string name="dialog_neutral">Cancel</string>
+    <string name="exit_warning">Turn off Bluetooth to save power</string>
+    <string name="exit_words">Welcome Back</string>
+    <string name="exit_background">See you later</string>
+    <string name="device_online">Online</string>
+    <string name="device_offline">Offline</string>
+
+    <string name="main_state_online">Device Online</string>
+    <string name="main_state_offline">Device Offline</string>
+    <string name="main_state_bond">Bond State Changed</string>
+    <string name="main_state_bluetooth">Bluetooth State Changed</string>
+    <string name="main_state_equipment">Equipment State Changed</string>
+    <!--UpgradeManager.java中用到的文字-->
+    <string name="soft_update_latest">Already latest version</string>
+    <string name="soft_update_title">Software Update</string>
+    <string name="soft_update_info">New version is ready, Update now?</string>
+    <string name="soft_update_updatebtn">Update</string>
+    <string name="soft_update_later">Update later</string>
+    <string name="soft_updating">Software Updating…</string>
+    <string name="soft_update_cancel">Cancel</string>
+    <string name="soft_update_now">The current version is:</string>
+    <string name="soft_update_net">The server version is:</string>
+    <string name="soft_update_whether">Update now?</string>
+
+    <string name="soft_upgrade_yes">New Version</string>
+    <string name="soft_upgrade_no">Latest Version</string>
+    <string name="soft_upgrade_check">Check</string>
+    <string name="soft_upgrade_checking">Checking……</string>
+    <!--ShakeService.java 和 VisualizerService.java里用到的文字-->
+    <string name="ticker_text">Background service of Magic Lamp</string>
+    <string name="notification_title">Magic Lamp</string>
+    <string name="notification_content_visualizer">Music Rhythm</string>
+    <string name="notification_content_shake">Shaking</string>
+    <string name="notification_info">Background service is running </string>
+    <string name="notice_warning">Notice:The Music and Shake can not run at the same time.</string>
+    <!--DeviceList.java 和 device_list.xml中用到的文字-->
+    <string name="bluetooth_title">Scan Devices</string>
+    <string name="bluetooth_scanning">Scanning……</string>
+    <string name="bluetooth_scan">Start Scanning</string>
+    <string name="bluetooth_connect">Connect</string>
+    <string name="bluetooth_unpair">Cancel</string>
+    <!--MainFragment1.java 和 fragment_main2.xml中用到的文字-->
+    <string name="main_brightness_weak">0 Dark</string>
+    <string name="main_brightness_strong">255 Bright</string>
+    <string name="main_brightness_tip">Current level </string>
+    <string name="main_timer_weak">0 Minutes</string>
+    <string name="main_timer_strong">60 Minutes</string>
+    <string name="main_timer_tip_zero">Delay function closed.</string>
+    <string name="main_timer_tip"> minutes later turn off.</string>
+    <!--Scene1Fragment.java 和 fragment_scene1.xml中用到的文字-->
+    <string name="scene_music">Music Rhythm</string>
+    <string name="scene_shake">Shaking</string>
+    <string name="scene_mode">Scene Mode </string>
+    <string name="scene_pallet">Color Palette</string>
+    <string name="scene_onoff">On Off</string>
+    <string name="scene_gradient">Gradient Ramp</string>
+    <string name="scene_drive">Contextual Mode</string>
+    <string name="scene_music_error">If the music player is not open, please manually open.</string>
+    <string name="scene_state_on">Running…</string>
+    <!--StatusFragment.java 和 fragment_status.xml中用到的文字-->
+    <string name="status_temperature">Temperature </string>
+    <string name="status_electricity">Voltage </string>
+    <!--SettingsActivity.java 和 activity_settings.xml中用到的文字-->
+    <!--<string name="settings_login">Please click to logon</string>-->
+    <string name="settings_login">Settings</string>
+    <string name="settings_password">Password</string>
+    <string name="settings_name">Rename</string>
+    <string name="settings_color">Color</string>
+    <string name="settings_music">Music</string>
+    <string name="settings_shake">Shake</string>
+    <string name="settings_camera">Selfie</string>
+    <string name="settings_about">About</string>
+    <string name="settings_positive">Change</string>
+    <string name="settings_negative">Cancel</string>
+    <string name="settings_password_tip">The password must be 4 digits.</string>
+    <string name="settings_name_tip">The lamp name cannot be empty.</string>
+    <string name="settings_color_tip">Set the current color as power on color of Magic Lamp.</string>
+    <string name="settings_warning">If the lamp is restarted, Please restart APP.</string>
+    <string name="settings_color_message">Do you want to set the current color as startup color?</string>
+    <!--AboutActivity.java 和 activity_about.xml中用到的文字-->
+    <string name="about_upgrade">Check for Updates</string>
+    <string name="about_latest">No Updates</string>
+    <string name="about_describe">Scan QR code to share Magic Lamp with your friends.</string>
+    <string name="about_no_network">Network is not available.</string>
+    <string name="about_software_version">Software Version V</string>
+    <string name="about_firmware_version">Firmware Version V</string>
+    <!--ShakeActivity.java 和 activity_shake.xml中用到的文字-->
+    <string name="shake_switch">Lamp Switch</string>
+    <string name="shake_color">Random Color</string>
+    <string name="shake_strong">0 Strong</string>
+    <string name="shake_weak">Weak</string>
+    <string name="shake_sensitive">Sensitive</string>
+    <!--VisualizerActivity.java 和 activity_visualizer.xml中用到的文字-->
+    <string name="visualizer_strong">0 Strong</string>
+    <string name="visualizer_weak">Weak 512</string>
+    <string name="visualizer_feel">Feeling</string>
+    <!--SelfieActivity.java 和 activity_selfie.xml中用到的文字-->
+    <string name="selfie_open">Start Selfie</string>
+    <string name="selfie_close">Stop Selfie</string>
+    <string name="selfie_tip">Click the "Start Selfie"; North Bulb APP run in background"; Open the
+        camera; Press the button of the North Bulb device. Note: selfie requires root permission.</string>
+    <string name="selfie_open_tip">Selfie opened</string>
+    <string name="selfie_close_tip">Selfie closed</string>
+    <string name="selfie_root_success">Root success</string>
+    <string name="selfie_root_fail">Root failed</string>
+    <string name="selfie_require_root">Require Root</string>
+    <string name="selfie_already_root">Already Root</string>
+
+    <!--GroupAdapter.java 和 item_options_settings.xml中用到的文字-->
+    <string name="group_adapter_connect">Connect</string>
+    <string name="group_adapter_disconnect">Disconnect</string>
+    <!--DialogFragment.java 和 fragment_dialog.xml中用到的文字-->
+    <string name="dialog_toast_connecting">Connecting……</string>
+    <string name="dialog_toast_disconnecting">Disconnecting……</string>
+    <string name="dialog_show_title">Manage Devices</string>
+    <string name="dialog_connect_all">Connect All</string>
+    <string name="dialog_disconnect_all">Disconnect All</string>
+    <string name="dialog_select_all">Select All</string>
+    <string name="dialog_deselect_all">Deselect All</string>
+    <string name="dialog_cancel_all">Cancel All</string>
+    <string name="dialog_state_tip">Please connect the device</string>
+
+    <string name="prompt_recordvideo_permission">Please allow "Record Video" permission, to start the "Music rhythm" function!</string>
+
+    <string name="label_device">Device</string>
+    <string name="label_group">Group</string>
+    <string name="label_timer">Timer</string>
+    <string name="label_About">About Us</string>
+    <string name="action_add_device">Add Device</string>
+    <string name="action_Edit_device">Edit Device</string>
+    <string name="action_Delete">Delete</string>
+    <string name="action_Add_Group">Add Group</string>
+    <string name="action_Edit_Group">Edit Group</string>
+    <string name="action_Add_Timer">Add Timer</string>
+    <string name="status_Searching">Searching…</string>
+    <string name="status_Please_select_the_device_to_add">Please select the device to add</string>
+    <string name="status_Please_select_the_devidfgdfgce_to_add">Please select the device to add</string>
+    <string name="status_Please_select_the_devgdfgice_to_add">Please select the device to add</string>
+
+</resources>
+

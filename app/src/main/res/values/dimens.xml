@@ -1,0 +1,75 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">0dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <dimen name="bluetooth_spp_text_size">18sp</dimen>
+    <dimen name="bluetooth_spp_padding">5dp</dimen>
+    <dimen name="framelayout_height">300dp</dimen>
+
+    <dimen name="button_horizontal_margin">1dp</dimen>
+
+    <dimen name="button_color_size">50dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="margin">5dp</dimen>
+    <dimen name="vertical_padding">16dp</dimen>
+    <dimen name="horizontal_margin">8dp</dimen>
+    <dimen name="button_switcher_size">60dp</dimen>
+
+    <!-- Standart dimens for the color wheel -->
+    <dimen name="color_wheel_radius">124dp</dimen>
+    <dimen name="color_wheel_thickness">8dp</dimen>
+    <dimen name="color_center_halo_radius">60dp</dimen>
+    <dimen name="color_center_radius">54dp</dimen>
+    <dimen name="color_pointer_halo_radius">18dp</dimen>
+    <dimen name="color_pointer_radius">14dp</dimen>
+
+    <!-- Standart dimens for the bars -->
+    <dimen name="bar_thickness">4dp</dimen>
+    <dimen name="bar_length">240dp</dimen>
+    <dimen name="bar_pointer_radius">6dp</dimen>
+    <dimen name="bar_pointer_halo_radius">14dp</dimen>
+
+    <dimen name="icon_size">32dp</dimen>
+    <dimen name="icon_padding">6dp</dimen>
+    <dimen name="little_icon_size">20dp</dimen>
+    <dimen name="horizontal_padding">16dp</dimen>
+    <dimen name="vertical_margin">16dp</dimen>
+    <dimen name="content_margin">5dp</dimen>
+    <dimen name="content_padding">8dp</dimen>
+    <dimen name="qr_bg_size">180dp</dimen>
+    <dimen name="content_margin_top">25dp</dimen>
+    <dimen name="content_margin_bottom">50dp</dimen>
+    <dimen name="large_icon_size">30dp</dimen>
+    <dimen name="info_padding">1dp</dimen>
+
+    <dimen name="selfie_icon_margin">60dp</dimen>
+
+    <!--drivemode_list_item.xml-->
+    <dimen name="timer_circle_margin">16dp</dimen>
+    <dimen name="timer_circle_diameter">80dip</dimen>
+    <dimen name="timer_circle_width">350dip</dimen>
+    <dimen name="button_font_size">24sp</dimen>
+    <dimen name="timer_label_font_size">24sp</dimen>
+    <dimen name="timer_divider_height">1dip</dimen>
+    <dimen name="button_footer_height_neg">-48dip</dimen>
+
+    <!--fragment_pallet.xml-->
+    <dimen name="framelayout_horizontal_margin">35dp</dimen>
+    <dimen name="framelayout_vertical_margin">10dp</dimen>
+    <dimen name="view_vertical_margin">10dp</dimen>
+    <dimen name="card_view_vertical_margin">4dp</dimen>
+
+    <!--fragment_main.xml里用到的-->
+    <dimen name="timer_view_width_main">66dp</dimen>
+    <dimen name="timer_view_margin_main">8dp</dimen>
+    <dimen name="delay_padding_main">10dp</dimen>
+    <dimen name="timer_on_padding_main">6dp</dimen>
+    <dimen name="horizontal_padding_main">25dp</dimen>
+
+    <!--fragment_scene.xml和SceneFragment里用到的尺寸-->
+    <dimen name="fragment_scene_item_height">120dp</dimen>
+    <dimen name="fragment_scene_icon_size">110dp</dimen>
+</resources>

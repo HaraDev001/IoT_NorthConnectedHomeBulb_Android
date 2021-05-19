@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.guohua.north_bulb">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+
+    <application
+        android:name="com.guohua.north_bulb.AppContext"
+        android:allowBackup="false"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.guohua.north_bulb.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.guohua.north_bulb.activity.PalletActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.guohua.north_bulb.activity.MenuActivity"
+            android:configChanges="keyboard"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.guohua.north_bulb.activity.AppIntroActivity"
+            android:configChanges="keyboard"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.guohua.north_bulb.activity.ShakeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.guohua.north_bulb.activity.VisualizerActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.guohua.north_bulb.communication.BLEActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.guohua.north_bulb.activity.AddScanDeviceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.guohua.north_bulb.activity.EditDeviceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.guohua.north_bulb.activity.AddGroupActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.guohua.north_bulb.activity.EditGroupActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.guohua.north_bulb.activity.AddTimerActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.guohua.north_bulb.service.VisualizerService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.guohua.glight.service.VisualizerService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.guohua.north_bulb.service.ShakeService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.guohua.glight.service.ShakeService" />
+            </intent-filter>
+        </service>
+
+
+        <service
+            android:name="com.guohua.north_bulb.service.DriveModeService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.guohua.glight.service.DriveModeService" />
+            </intent-filter>
+        </service>
+
+
+        <service android:name="com.guohua.north_bulb.communication.BLEService" />
+
+    </application>
+
+</manifest>
